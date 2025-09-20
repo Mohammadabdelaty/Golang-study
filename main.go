@@ -1,6 +1,9 @@
 package main
 
+import "firstGo/packages"
+
+
 func main ()  {
 	println("The main entry point function.")
-	another()
+	pkg1.Another()
 }

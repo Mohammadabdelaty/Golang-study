@@ -22,3 +22,14 @@ go version go1.25.1 linux/amd64
 
 In packages we are trying to understand the packages in Go.
 
+to start, you need to initialize go in this dir
+
+```bash
+go mod init firstGo
+```
+
+To include packages in `packages` dir you need to import it in `main.go` as follows:
+```go
+import "firstGo/packages"
+```
+ 
