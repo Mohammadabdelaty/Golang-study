@@ -6,4 +6,6 @@ In the same dir there could be many files, but these files sould only contain pa
 
 In the main go file -parent of the current folder-, you should include your first entry point function `main` which will execute all in it.
 
-* Please note that only
+* Please note that only one pkg can be added to this dir, also can be many files with different funcations but the same pkg name in all file.
+
+You can add another pkg in another dir in the same parent package dir. like this one in `pkg2`.

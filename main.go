@@ -1,6 +1,6 @@
 package main
 
-import "firstGo/packages"
+import "firstGo/packages/pkg1"
 
 
 func main ()  {
