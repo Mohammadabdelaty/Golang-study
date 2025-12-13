@@ -9,3 +9,6 @@ In the main go file -parent of the current folder-, you should include your firs
 * Please note that only one pkg can be added to this dir, also can be many files with different funcations but the same pkg name in all file.
 
 You can add another pkg in another dir in the same parent package dir. like this one in `pkg2`.
+
+The function name's first letter should be Upper case to be exposed to the main function.
+ 
